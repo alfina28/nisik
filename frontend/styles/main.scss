@@ -1,0 +1,441 @@
+body{
+    font-family: 'Muli', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    img{
+        max-height: 30px;
+    }
+}
+
+.navbar-light{
+    padding-top: 25px;
+    margin-left: -10px;
+    .navbar-nav{
+        .nav-link{
+            color: #777777;
+            font-size: 16px;
+            
+            &:hover{
+                color: #000 !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right{
+    margin-left: 30px !important;
+    height: 46px;
+    width: 120px;
+    border-radius: 2px;
+}
+
+.btn-login{
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+
+    &:hover{
+        background-color: #FF5674;
+        color: #ffffff;
+    }
+}
+
+.btn-join{
+    margin-right: -60px;
+    background-color: #fff;
+    color: #FF5674;
+
+    &:hover{
+        background-color: #FF5674;
+        color: #ffffff;
+    }
+}
+
+.btn-gabung{
+    width: auto;
+    height: auto;
+    background: #FF5674;
+    box-shadow: 0px 4px 40px rgba(255, 86, 116, 0.25);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+
+    &:hover{
+        color: #FF5674;
+        background-color: #fff;
+    }
+}
+
+
+header{
+    padding: 180px 0px 165px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    margin-left: -30px;
+    background: linear-gradient(196.12deg, rgba(242, 98, 124, 0.15) 8.94%, rgba(196, 196, 196, 0) 75.9%);
+
+    .header-rectangle{
+        width: 420px;
+        height: 720px;
+        float: right;
+        margin-top: -190px;
+        margin-right: -135px;
+        background: linear-gradient(26.71deg, #D5415B 0.77%, #FF718A 103.25%);
+        border-radius: 0px 0px 0px 122px;
+
+        img.icon{
+            width: auto;
+            height: 100px;
+            margin-top: 600px;
+            margin-left: -140px;
+        }
+
+        img{
+            width: 377px;
+            margin-top: -650px;
+            margin-left: -100px;
+        }
+    }
+
+    .header-content{
+        h1{
+            margin: 0 0 30px ;
+            padding-bottom: 20px;
+            font-size: 45px;
+            font-weight: bold;
+            color: #222222;
+        }
+
+        p{
+            margin: 0 0 30px ;
+            font-size: 18px;
+            font-weight: normal;
+            color: #333333;
+        }
+    }
+}
+
+main{
+    margin-top: 220px;
+    .imggallery{
+        width: auto;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .card-detail{
+        border-style: none;
+        margin-left: 40px;
+        
+        h3{
+            font-weight: 600;
+            font-size: 18px;
+            color: #F1607A;
+            padding-bottom: 25px;
+        }
+
+        h2{
+            padding-bottom: 25px;
+            color: #222222;
+            font-weight: bold;
+        }
+        
+        p{
+            font-size: 16px;
+            color: #333333;
+            padding-bottom: 15px;
+        }
+
+        table{
+            margin-top: -60px;
+            margin-left: 200px;
+            padding: 0 !important;
+        }
+    }
+
+    .fitur{
+        margin-left: -2px;
+        .fitur-item{
+            p{
+                margin-bottom: 0;
+            }
+            .description{
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+                
+                p{
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #333333;
+                }
+            }
+        }
+
+        .fitur-image{
+            width: 60px;
+            height: 60px;
+            background: #ffffff;
+            box-shadow: 0px 4px 40px rgba(51, 51, 51, 0.08);
+            border-radius: 2px;
+            float: left;
+            
+            img{
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+    .section-penjahit{
+        margin-left: -12px;
+        .image{
+            position: absolute;
+            margin-top: -190px;
+        }
+    }
+
+    .section-pengguna{
+        margin-top: 200px;
+        margin-left: 60px;
+
+        .image{
+            position: absolute;
+            margin-top: 65px;
+            margin-left: 85px;
+        }
+
+        #gallery{
+            float: right;
+            margin-top: 150px;
+            margin-right: -100px;
+        }
+    }
+
+    .section-order{
+        padding-bottom: 100px !important;
+        .section-order-content{
+            background-color: #FFE8EC;
+            height: 100%;
+
+            .content{
+                img{
+                    position: absolute;
+                    margin-left: -530px;
+                }
+
+                h3{
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #F1607A;
+                }
+
+                h2{
+                    font-weight: bold;
+                    font-size: 40px;
+                    color: #222222;
+                }
+
+                p{
+                    color: rgba(51, 51, 51, 0.8);
+                    font-size: 14px;
+                }
+            }
+
+            .section-gabung{
+                .box{
+                    background: #fff;
+                    border-radius: 10px;
+                    width: 180px;
+                    height: 180px;
+                    margin-bottom: 30px;
+
+                    .number{
+                        background-color: #FF5674;
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 100%;
+                    }
+                }
+                
+                .box-content{
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                    h3{
+                        width: 220px;
+                        font-weight: bold;
+                        font-size: 22px;
+                        color: #000;
+                    }
+                    p{
+                        margin: 0 !important;
+                        width: 220px;
+                        font-size: 14px;
+                        color: rgba(51, 51, 51, 0.7);
+                    }
+                }
+            }
+        }
+
+    }
+
+    .section-join{
+        .section-join-content{
+            color: #333333;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 60px rgba(51, 51, 51, 0.1);
+
+            .rec{
+                height: 100px;
+                position: absolute;
+                margin-top: 180px;
+                margin-left: 46%;
+            }
+
+            .image{
+                position: absolute;
+                height: 350px;
+                margin-top: -90px;
+                margin-left: 50%;
+            }
+
+            h2{
+                font-weight: bold;
+                font-size: 36px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+
+            .btn-gabung{
+                position: relative;
+            }
+        }
+    }
+}
+
+.section-footer{
+    margin-top: -150px;
+    color: #fff;
+    bottom:0px;
+    background: linear-gradient(7.96deg, #D5415B 0.77%, #FF718A 103.25%);
+    
+    .row-list{
+        margin-top: 120px !important;
+    }
+
+    h5{
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    li{
+        margin-bottom: 10px;
+    }
+    a{
+        color: #fff;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .copyright{
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navbar-light{
+        .btn-login, .btn-join{
+            background-color: #FF5674;
+            color: #fff;
+            box-shadow: 0px 4px 40px rgba(255, 86, 116, 0.25);
+        
+            &:hover{
+                background-color: #fff;
+                color: #FF5674;
+            }
+        }
+    }
+    header{
+        background: none;
+        .header-rectangle{
+            display: none;
+        }
+        .header-content{
+            text-align: center;
+            p{
+                font-size: 14px;
+            }
+        }
+        .btn-gabung{
+            margin-top: 20px !important;
+            margin-left: 130px !important;
+        }
+    }
+
+    main{
+        .image, .rec{
+            display: none;
+        }
+
+        .imggallery{
+            margin: 0px !important;
+            width: 293px;
+            height: auto;
+        }
+
+        .section-penjahit{
+            .card-detail{
+                margin-top: 50px;
+                margin-left: 110px;
+            }
+
+            #gallery{
+                .row{
+                    flex-direction: column-reverse;
+                }
+            }
+        }
+
+        .section-pengguna{
+            .card-detail{
+                margin-top: -30px !important;
+            }
+            .row{
+                flex-direction: column-reverse;
+
+                #gallery{
+                    float: left;
+                }
+            }
+        }
+
+        .section-order{
+            .container{
+                margin-left: -10px;
+            }
+        }
+
+        .section-join{
+            .container{
+                margin-left: -10px;
+                margin-top: -50px;
+            }
+        }
+    }
+
+    .section-footer{
+        .row-list{
+            margin-top: -80px;
+        }
+    }
+}
